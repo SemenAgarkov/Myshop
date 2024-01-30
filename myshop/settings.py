@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'shop.apps.ShopConfig',
     'cart.apps.CartConfig',
     'orders.apps.OrdersConfig',
+    'payment.apps.PaymentConfig',
 ]
 
 MIDDLEWARE = [
@@ -103,6 +104,11 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+
+# Настроечные параметры Stripe
+STRIPE_PUBLISHABLE_KEY = '' # Публичный ключ
+STRIPE_SECRET_KEY = ''      # Секретный ключ
+STRIPE_API_VERSION = '2022-08-01'
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.1/topics/i18n/
