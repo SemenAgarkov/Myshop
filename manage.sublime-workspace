@@ -1,0 +1,271 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"so",
+				"soup"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"menu",
+				"View: Toggle Menu"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/общая/Агарков С.В/Python/Django/Project_blog/mysite/mysite/settings.py",
+		"/D/общая/Агарков С.В/Python/Django/Project_blog/mysite/blog/templates/blog/post/detail.html",
+		"/D/общая/Агарков С.В/Python/Django/Project_blog/mysite/blog/templates/blog/base.html",
+		"/D/общая/Агарков С.В/Python/Programm/Django/locallibrary/locallibrary/catalog/models.py",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/D/общая/Агарков С.В/Python/Programm/Django/diyblog/diyblog/blog/models.py",
+		"/D/общая/Агарков С.В/Python/Django/Polls_app/mysite/mysite/settings.py",
+		"/D/общая/Агарков С.В/Python/Programm/Django/locallibrary/locallibrary/locallibrary/settings.py",
+		"/D/общая/Агарков С.В/Python/Programm/Django/Djangoweb/landingpagewebsite_root/crm/models.py",
+		"/D/общая/Агарков С.В/Python/Programm/Django/locallibrary/locallibrary/catalog/templates/base_generic.html",
+		"/D/общая/Агарков С.В/Python/Programm/Django/locallibrary/locallibrary/catalog/templates/index.html",
+		"/D/общая/Агарков С.В/Python/Programm/Django/Djangoweb/landingpagewebsite_root/templates/base.html",
+		"/C/Windows/SysWOW64/kernel32.dll",
+		"/D/общая/Агарков С.В/Python/Programm/Django/locallibrary/locallibrary/catalog/admin.py",
+		"/D/общая/Агарков С.В/Двухпозиционный гидропресс/Копирование отчетов с ДПГ на сервер/Copy_dir.py",
+		"/D/общая/Агарков С.В/Python/Programm/Telegram_bot/Pizza_bot/config.py",
+		"/D/общая/Агарков С.В/Python/Programm/Telegram_bot/Pizza_bot/main.py",
+		"/C/Users/pusk30_1/Desktop/Схемы зона 6/QE6.1_Rev6.dwg",
+		"/D/общая/Агарков С.В/Python/Programm/Parser's/Scraper from Youtube/test.py",
+		"/D/общая/Агарков С.В/Python/Programm/Parser's_sensors/Parser_Sensor/main.py",
+		"/D/общая/Агарков С.В/Python/Programm/Django/locallibrary/locallibrary/locallibrary/urls.py",
+		"/D/общая/Агарков С.В/Python/Programm/Django/locallibrary/locallibrary/catalog/urls.py",
+		"/D/общая/Агарков С.В/Python/Programm/Django/locallibrary/locallibrary/catalog/views.py",
+		"/D/общая/Агарков С.В/Двухпозиционный гидропресс/Копирование отчетов с ДПГ на сервер/Версия 3.0/Copy_dir.py",
+		"/D/общая/Агарков С.В/Python/Django/locallibrary/locallibrary/locallibrary/settings.py",
+		"/D/общая/Агарков С.В/Python/Django/locallibrary/locallibrary/catalog/urls.py",
+		"/D/общая/Агарков С.В/Python/Django/locallibrary/locallibrary/catalog/apps.py",
+		"/D/общая/Агарков С.В/Python/Django/locallibrary/locallibrary/catalog/models.py",
+		"/D/общая/Агарков С.В/Python/Django/locallibrary/locallibrary/locallibrary/urls.py",
+		"/D/общая/Агарков С.В/Книги/Программирование/Python/Проги/DHT_copy_file_3.bat",
+		"/D/общая/Агарков С.В/Python/Django/Djangoweb/venv/Lib/site-packages/django/template/base.py",
+		"/D/общая/Агарков С.В/Python/Django/Djangoweb/landingpagewebsite_root/templates/base.html",
+		"/D/общая/Агарков С.В/Python/Django/Djangoweb/venv/Lib/site-packages/django/contrib/admin/templates/admin/base_site.html",
+		"/D/общая/Агарков С.В/Python/Django/Djangoweb/venv/Lib/site-packages/django/contrib/admin/templates/admin/base.html",
+		"/D/общая/Агарков С.В/Python/Django/Djangoweb/landingpagewebsite_root/landingpagewebsite/settings.py",
+		"/D/общая/Агарков С.В/Python/Django/Djangoweb/landingpagewebsite_root/sendmessage.py.txt",
+		"/D/общая/Агарков С.В/Python/Parser's_sensors/Parser_skbind/Parser_free_proxy.py",
+		"/D/общая/Агарков С.В/Python/Telegram_bot/Weather_bot/config.py",
+		"/D/общая/Агарков С.В/Python/Parser's_sensors/Parser_free_proxy.py",
+		"/D/общая/Агарков С.В/Python/Telegram_bot/Weather_bot/main_weather_tg_bot.py",
+		"/D/общая/Агарков С.В/Python/Parser's_sensors/Parser_skbind/main_asyncio.py",
+		"/D/общая/Агарков С.В/Python/Parser's/Parser_Gips_Gov/main.py.txt",
+		"/D/общая/Агарков С.В/Python/Parser's/scrap_tutorial/lesson3/lesson3.py",
+		"/D/общая/Агарков С.В/Python/Parser's/scrap_tutorial/lesson4/main.py",
+		"/D/общая/Агарков С.В/Python/Parser's/scrap_tutorial/lesson2/lesson2.py",
+		"/D/общая/Агарков С.В/Python/Parser's/scrap_tutorial/lesson2/main.py",
+		"/D/общая/Агарков С.В/Python/Parser's_sensors/Parser_skbind/sensor_data.py",
+		"/D/общая/Агарков С.В/Python/Parser's_sensors/Parser_skbind/save_json_csv.py",
+		"/D/общая/Агарков С.В/Python/Parser's_sensors/Parser_skbind/sensor_list.txt",
+		"/D/общая/Агарков С.В/Python/Parser's_sensors/Parser_skbind/Индуктивные датчики.json",
+		"/D/общая/Агарков С.В/Python/Parser's_sensors/Parser_SE/result.json",
+		"/D/общая/Агарков С.В/Python/Parser's_sensors/Parser_SE/main_requests.py",
+		"/D/общая/Агарков С.В/Python/Parser's_sensors/Parser_SE/test.py",
+		"/D/общая/Агарков С.В/Python/Parser's_sensors/Parser_IFM/main_requests.py",
+		"/D/общая/Агарков С.В/Python/Parser's/scrap_tutorial/lesson10/main.py",
+		"/D/общая/Агарков С.В/Python/Parser's/scrap_tutorial/lesson14/main.py",
+		"/D/общая/Агарков С.В/Python/Parser_siemens/main.py",
+		"/D/общая/Агарков С.В/Python/Parser_IFM/main_requests.py",
+		"/D/общая/Агарков С.В/Python/Parser_Balluff/main.py",
+		"/D/общая/Агарков С.В/Python/Parser_Balluff/sensors_balluff.json",
+		"/D/общая/Агарков С.В/Python/Scraping/Test.py",
+		"/D/общая/Агарков С.В/Python/Parser_SE/main_requests.py",
+		"/D/общая/Агарков С.В/Python/Flask/templates/register.html",
+		"/D/общая/Агарков С.В/Python/Flask/static/css/styles.css",
+		"/D/общая/Агарков С.В/Python/Flask/templates/login.html",
+		"/D/общая/Агарков С.В/Python/Parser_SE/main.py",
+		"/D/общая/Агарков С.В/Python/Flask/templates/profile.html",
+		"/D/общая/Агарков С.В/Python/Flask/flsite.py",
+		"/D/общая/Агарков С.В/Python/Flask/flasksite-17-master/flasksite-17-master/flsite.py",
+		"/D/общая/Агарков С.В/Python/Parser_SE/sensors_info.json",
+		"/D/общая/Агарков С.В/Python/Flask/templates/index.html",
+		"/D/общая/Агарков С.В/Python/Flask/templates/post.html",
+		"/D/общая/Агарков С.В/Python/Flask/sq_db.sql",
+		"/D/общая/Агарков С.В/Python/Parser_IFM/main.py",
+		"/D/общая/Агарков С.В/Python/Flask/templates/base.html",
+		"/D/общая/Агарков С.В/Python/Flask/FDataBase.py",
+		"/D/общая/Агарков С.В/Python/Flask/flasksite-17-master/flasksite-17-master/templates/base.html",
+		"/D/общая/Агарков С.В/Python/Flask/templates/add_post.html",
+		"/D/общая/Агарков С.В/Python/Flask/flasksite-17-master/flasksite-17-master/FDataBase.py",
+		"/D/общая/Агарков С.В/Python/BUS.GOV.py",
+		"/D/общая/Агарков С.В/Python/Flask/templates/contact.html",
+		"/D/общая/Агарков С.В/Python/Flask/templates/page404.html",
+		"/D/общая/Агарков С.В/Python/Selenium_tutorial/chromedriver/main.py",
+		"/D/общая/Агарков С.В/Python/Parser's/scrap_tutorial/lesson9/main.py",
+		"/D/общая/Агарков С.В/Python/Parser's/scrap_tutorial/lesson15/main.py",
+		"/D/общая/Агарков С.В/Python/Parser's/BUS.GOV.py",
+		"/D/общая/Агарков С.В/Python/Parser's/scrap_tutorial/lesson7/main.py",
+		"/D/общая/Агарков С.В/Python/Parser's/scrap_tutorial/lesson8/main.py",
+		"/D/общая/Агарков С.В/Python/Telegram_bot/Weather_bot/main.py",
+		"/C/Users/pusk30_1/Downloads/5-5",
+		"/D/общая/Агарков С.В/Python/Telegram_bot/Test_bot/main.py",
+		"/D/общая/Агарков С.В/Python/Parser's/scrap_tutorial/lesson15/venv/Lib/site-packages/fake_useragent/utils.py",
+		"/I/Документы/Копирование отчетов с ДПГ на сервер/Copy_dir.py",
+		"/D/общая/Агарков С.В/Книги/Программирование/Python/Проги/DHT_copy_file_2.bat",
+		"/D/общая/Агарков С.В/Книги/Программирование/Python/Проги/DHT_copy_file_1.bat",
+		"/D/общая/Агарков С.В/Книги/Программирование/Python/Проги/DHT_copy_file.bat",
+		"/C/Program Files (x86)/USB-модем Билайн/UIMain_Full.exe"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "manage.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
