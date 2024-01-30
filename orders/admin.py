@@ -1,3 +1,6 @@
+import csv
+import datetime
+from django.http import HttpResponse
 from django.contrib import admin
 from django.utils.safestring import mark_safe
 from .models import Order, OrderItem
@@ -15,6 +18,28 @@ def order_stripe_payment(obj):
     return ''
 order_stripe_payment.short_description = 'Stripe payment'
 
+def export_to_csv(modeladmin, request, queryset):
+    opts = modeladmin.model._meta
+    content_disposition = f'attachment; filename={opts.verbose_name}.csv'
+    response = HttpResponse(content_type='text/csv')
+    response['Content-Disposition'] = content_disposition
+    writer = csv.writer(response)
+    fields = [field for field in opts.get_fields() if not \
+              field.many_to_many and not field.one_to_many]
+    # записать первуюстроку с информацией заголовка
+    writer.writerow([field.verbose_name for field in fields])
+    # записать строки данных
+    for obj in queryset:
+        data_row = []
+        for field in fields:
+            value = getattr(obj, field.name)
+            if isinstance(value, datetime.datetime):
+                value = value.strftime('%d/%m/%Y')
+            data_row.append(value)
+        writer.writerow(data_row)
+    return response
+export_to_csv.short_description = 'Export to CSV'
+
 @admin.register(Order)
 class OrderADmin(admin.ModelAdmin):
     list_display = ['id', 'first_name', 'last_name', 'email',
@@ -22,3 +47,4 @@ class OrderADmin(admin.ModelAdmin):
                     'created', 'updated']
     list_filter = ['paid', 'created', 'updated']
     inlines = [OrderItemInline]
+    actions = [export_to_csv]
