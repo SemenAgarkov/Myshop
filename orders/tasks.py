@@ -1,9 +1,9 @@
-from celery import share_task
+from celery import shared_task
 from django.core.mail import send_mail
 from .models import Order
 
 
-@share_task
+@shared_task
 def order_created(order_id):
     """
     Задание по отправке уведомления по электронной почте
