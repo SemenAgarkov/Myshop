@@ -106,6 +106,12 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 
+# настроечные параметры Redis
+REDIS_HOST = 'localhost'
+REDIS_PORT = 6379
+REDIS_DB = 1
+
+
 # Настроечные параметры Stripe
 STRIPE_PUBLISHABLE_KEY = '' # Публичный ключ
 STRIPE_SECRET_KEY = ''      # Секретный ключ
