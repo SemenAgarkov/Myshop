@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'orders.apps.OrdersConfig',
     'payment.apps.PaymentConfig',
     'coupons.apps.CouponsConfig',
+    'rosetta',
 ]
 
 MIDDLEWARE = [
@@ -123,9 +124,9 @@ STRIPE_API_VERSION = '2022-08-01'
 # https://docs.djangoproject.com/en/4.1/topics/i18n/
 
 LANGUAGE_CODE = 'en'
-LANGUAGE = [
-    ('en', _'English'),
-    ('es', _'Spanish'),
+LANGUAGES = [
+    ('en', _('English')),
+    ('es', _('Spanish')),
 ]
 
 LOCALE_PATHS = [
