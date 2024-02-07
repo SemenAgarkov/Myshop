@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-05 15:11+0300\n"
-"PO-Revision-Date: 2022-05-10 21:27+0000\n"
-"Last-Translator:   <>\n"
+"POT-Creation-Date: 2024-02-07 10:16+0300\n"
+"PO-Revision-Date: 2024-02-07 07:27+0000\n"
+"Last-Translator:   <admin@mail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -21,22 +21,62 @@ msgstr ""
 
 #: cart/forms.py:11
 msgid "Quantity"
-msgstr "Cantidad"
+msgstr ""
 
 #: coupons/forms.py:6
 msgid "Coupon"
-msgstr "Cupón"
+msgstr ""
+
+#: myshop/settings.py:128
+msgid "English"
+msgstr ""
+
+#: myshop/settings.py:129
+msgid "Spanish"
+msgstr ""
+
+#: myshop/urls.py:26
+msgid "cart/"
+msgstr ""
+
+#: myshop/urls.py:27
+msgid "orders/"
+msgstr ""
+
+#: myshop/urls.py:28
+msgid "payment/"
+msgstr ""
+
+#: myshop/urls.py:29
+msgid "coupons/"
+msgstr ""
+
+#: payment/urls.py:10
+msgid "process/"
+msgstr ""
+
+#: payment/urls.py:11
+msgid "completed/"
+msgstr ""
+
+#: payment/urls.py:12
+msgid "canceled/"
+msgstr ""
 
 #: shop/templates/shop/base.html:7 shop/templates/shop/base.html:12
 msgid "My shop"
-msgstr "Mi tienda"
+msgstr ""
 
-#: shop/templates/shop/base.html:18
+#: shop/templates/shop/base.html:17
+msgid "Language"
+msgstr ""
+
+#: shop/templates/shop/base.html:35
 msgid "Your cart"
-msgstr "Su carro"
+msgstr ""
 
-#: shop/templates/shop/base.html:20
-#, fuzzy, python-format
+#: shop/templates/shop/base.html:37
+#, python-format
 #| msgid ""
 #| "\n"
 #| "                %(items)s item, $%(total)s\n"
@@ -47,32 +87,39 @@ msgstr "Su carro"
 #| "              "
 msgid ""
 "\n"
-"                                %(items)s item, $%(total)s\n"
-"                            "
+"                %(items)s item, $%(total)s\n"
+"              "
 msgid_plural ""
 "\n"
-"                                %(items)s items, $%(total)s\n"
-"                            "
+"                %(items)s items, $%(total)s\n"
+"              "
 msgstr[0] ""
-"\n"
-"                %(items)s producto, $%(total)s\n"
-"              "
 msgstr[1] ""
-"\n"
-"                %(items)s productos, $%(total)s\n"
-"              "
 
-#: shop/templates/shop/base.html:27
+#: shop/templates/shop/base.html:44
 msgid "Your cart is empty."
-msgstr "Su carro está vacío."
+msgstr ""
 
 #: shop/templates/shop/product/detail.html:23
 msgid "Add to cart"
-msgstr "Añadir al carro"
+msgstr ""
 
 #: shop/templates/shop/product/detail.html:28
 msgid "People who bought this also bought"
-msgstr "Personas que compraron esto también compraron"
+msgstr ""
+
+#: shop/templates/shop/product/list.html:6
+#: shop/templates/shop/product/list.html:24
+msgid "Products"
+msgstr ""
+
+#: shop/templates/shop/product/list.html:11
+msgid "Categories"
+msgstr ""
+
+#: shop/templates/shop/product/list.html:14
+msgid "All"
+msgstr "Todos"
 
 #~ msgid "Your shopping cart"
 #~ msgstr "Su carro"
@@ -123,24 +170,6 @@ msgstr "Personas que compraron esto también compraron"
 #~ msgid "Checkout"
 #~ msgstr "Comprar"
 
-#~ msgid "English"
-#~ msgstr "Inglés"
-
-#~ msgid "Spanish"
-#~ msgstr "Español"
-
-#~ msgid "cart/"
-#~ msgstr "carro/"
-
-#~ msgid "orders/"
-#~ msgstr "pedidos/"
-
-#~ msgid "payment/"
-#~ msgstr "pago/"
-
-#~ msgid "coupons/"
-#~ msgstr "cupon/"
-
 #~ msgid "Payment canceled"
 #~ msgstr "Pago cancelado"
 
@@ -177,24 +206,3 @@ msgstr "Personas que compraron esto también compraron"
 
 #~ msgid "Pay now"
 #~ msgstr "Pagar ahora"
-
-#~ msgid "process/"
-#~ msgstr "procesar/"
-
-#~ msgid "completed/"
-#~ msgstr "completado/"
-
-#~ msgid "canceled/"
-#~ msgstr "cancelado/"
-
-#~ msgid "Language"
-#~ msgstr "Idioma"
-
-#~ msgid "Products"
-#~ msgstr "Productos"
-
-#~ msgid "Categories"
-#~ msgstr "Categorías"
-
-#~ msgid "All"
-#~ msgstr "Todos"

@@ -44,6 +44,8 @@ INSTALLED_APPS = [
     'payment.apps.PaymentConfig',
     'coupons.apps.CouponsConfig',
     'rosetta',
+    'parler',
+    'localflavor',
 ]
 
 MIDDLEWARE = [
@@ -119,6 +121,18 @@ REDIS_DB = 1
 STRIPE_PUBLISHABLE_KEY = '' # Публичный ключ
 STRIPE_SECRET_KEY = ''      # Секретный ключ
 STRIPE_API_VERSION = '2022-08-01'
+
+# настройка django-parler
+PARLER_LANGUAGES = {
+    None: (
+        {'code': 'en'},
+        {'code': 'es'},
+    ),
+    'default': {
+        'fallback': 'en',
+        'hide_untranslated': False,
+    }
+}
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.1/topics/i18n/
